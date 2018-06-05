@@ -15,31 +15,27 @@
 	"prefer-stable": true,
 	"autoload": {
 		"psr-4": {
-			"\\": "app/classes/"
+			"ProjectSend\\": "app/classes/"
 		},
 		"files": [
-			"app/functions/database.php",
-			"app/functions/actions.log.export.php",
-			"app/functions/active.sessions.php",
-			"app/functions/ajax-keep-alive.php",
-			"app/functions/core.update.legacy.php",
-			"app/functions/core.update.php",
-			"app/functions/core.update.silent.php",
-			"app/functions/email-template.php",
-			"app/functions/functions.categories.php",
-			"app/functions/functions.forms.php",
-			"app/functions/functions.php",
-			"app/functions/functions.templates.php",
-			"app/functions/language.php",
-			"app/functions/language-locales-names.php",
-			"app/functions/site.options.php",
-			"app/functions/text-string.php",
-			"app/functions/timezone_identifiers_list.php",
-			"app/functions/timezones.php",
-			"app/functions/updates.functions.php",
-			"app/functions/updates.messages.php",
-			"app/functions/userlevel_check.php",
-			"app/functions/security/xsrf.php"
+			"app/includes/database.php",
+			"app/includes/session.information.php",
+			"app/includes/session.keep.alive.php",
+			"app/includes/core.update.legacy.php",
+			"app/includes/core.update.php",
+			"app/includes/core.update.silent.php",
+			"app/includes/functions.categories.php",
+			"app/includes/functions.forms.php",
+			"app/includes/functions.php",
+			"app/includes/functions.templates.php",
+			"app/includes/language.load.php",
+			"app/includes/language.locales.names.php",
+			"app/includes/options.get.php",
+			"app/includes/text.strings.php",
+			"app/includes/updates.functions.php",
+			"app/includes/updates.messages.php",
+			"app/includes/session.check.php",
+			"app/includes/security/xsrf.php"
 		]
 	},
 	"require": {

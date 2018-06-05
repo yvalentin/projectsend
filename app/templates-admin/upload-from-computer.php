@@ -11,7 +11,7 @@
  */
 $load_scripts	= array(
 						'plupload',
-					); 
+					);
 
 require_once('sys.includes.php');
 
@@ -59,7 +59,7 @@ $current_level = get_current_user_level();
 					$.ajax({
 						type:	'GET',
 						cache:	false,
-						url:	'includes/ajax-keep-alive.php',
+						url:	'includes/session.keep.alive.php',
 						data:	'timestamp='+timestamp,
 						success: function(result) {
 							var dummy = result;
@@ -153,7 +153,7 @@ $current_level = get_current_user_level();
 				};
 			});
 		</script>
-		
+
 		<form action="upload-process-form.php" name="upload_by_client" id="upload_by_client" method="post" enctype="multipart/form-data">
 			<input type="hidden" name="uploaded_files" id="uploaded_files" value="" />
 			<div id="uploader">

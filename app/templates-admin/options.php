@@ -185,7 +185,7 @@ if ($_POST && validateCsrfToken()) {
 /**
  * Replace | with , to use the tags system when showing
  * the allowed filetypes on the form. This value comes from
- * site.options.php
+ * options.get.php
 */
 $allowed_file_types = str_replace('|',',',$allowed_file_types);
 /** Explode, sort, and implode the values to list them alphabetically */
@@ -310,7 +310,7 @@ $allowed_file_types = implode(',',$allowed_file_types);
 											 * Generates a select field.
 											 * Code is stored on a separate file since it's pretty long.
 											 */
-											include_once('includes/timezones.php');
+											include_once('timezones.php');
 										?>
 									</div>
 								</div>

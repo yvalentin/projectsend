@@ -4,7 +4,6 @@
  * Uses the information defined on sys.config.php.
  *
  * @package		ProjectSend
- * @subpackage	Classes
  *
  */
 
