@@ -1,7 +1,7 @@
 {
 	"name": "ProjectSend",
 	"description": "ProjectSend is an open source, clients-oriented, private file sharing web application.",
-	"license": "GPL-2.0-or-later",
+	"license": "GPL-3.0-or-later",
 	"dependencies": {
 		"bootstrap": "~3.3.7",
 		"bootstrap-datepicker": "~1.6.4",
