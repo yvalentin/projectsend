@@ -3,7 +3,7 @@
 use Psr\Container\ContainerInterface;
 use Slim\Container;
 
-require __DIR__ . '/includes/sys.config.php';
+require __DIR__ . '/config/sys.config.php';
 require __DIR__ . '/vendor/autoload.php';
 
 function container()
