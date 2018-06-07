@@ -146,9 +146,6 @@ if ( !file_exists( CONFIG_FILE ) ) {
 		}
 	}
 }
-else {
-	require_once CONFIG_FILE;
-}
 
 /**
  * Database connection driver

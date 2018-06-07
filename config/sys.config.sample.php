@@ -17,7 +17,7 @@
  * sys.config.sample.php
  *
  * @package ProjectSend
- * 
+ *
  */
 
 /**
@@ -27,7 +27,7 @@
 
 /**
  * Database driver to use with PDO.
- * Possible options: mysql, mssql
+ * Possible options: mysql
 */
 define('DB_DRIVER', 'mysql');
 
@@ -75,7 +75,7 @@ define('SITE_LANG','en');
 /**
  * Define a maximum size (in mb.) that is allowed on each file to be uploaded.
  */
-define('MAX_FILESIZE',2048); 
+define('MAX_FILESIZE',2048);
 
 /**
  * Encoding to use on the e-mails sent to new clients, users, files, etc.

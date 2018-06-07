@@ -18,11 +18,14 @@
  * Feel free to participate!
  *
  * @package		ProjectSend
- * @link		https://github.com/ignacionelson/ProjectSend/
- * @license		http://www.gnu.org/licenses/gpl-2.0.html GNU GPL version 2
+ * @link			https://github.com/ignacionelson/ProjectSend/
+ * @license		https://www.gnu.org/licenses/gpl.html GNU GPL version 3
  * @author		Ignacio Nelson <contact@projectsend.org>
  *
  */
+
+define('ROOT_DIR', __DIR__);
+define('SP', DIRECTORY_SEPARATOR);
 
 require __DIR__ . '/bootstrap.php';
 
