@@ -1,11 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "9893dba5cf4b47301b4b7affd011534d",
-    "content-hash": "f63a204ad1a1c6d4e8b889fb424a17da",
+    "content-hash": "fd1756e88b5a985eb3aaff04e2bfd833",
     "packages": [
         {
             "name": "bainternet/php-hooks",
@@ -44,7 +43,7 @@
                 "filters",
                 "hooks"
             ],
-            "time": "2015-09-07 12:11:17"
+            "time": "2015-09-07T12:11:17+00:00"
         },
         {
             "name": "claviska/simpleimage",
@@ -83,7 +82,7 @@
                 }
             ],
             "description": "A PHP class that makes working with images as simple as possible.",
-            "time": "2017-09-12 09:03:56"
+            "time": "2017-09-12T09:03:56+00:00"
         },
         {
             "name": "container-interop/container-interop",
@@ -114,7 +113,7 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
-            "time": "2017-02-14 19:40:03"
+            "time": "2017-02-14T19:40:03+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -179,7 +178,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2018-04-22 15:46:56"
+            "time": "2018-04-22T15:46:56+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -230,7 +229,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-12-20 10:07:11"
+            "time": "2016-12-20T10:07:11+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -295,7 +294,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2017-03-20 17:10:46"
+            "time": "2017-03-20T17:10:46+00:00"
         },
         {
             "name": "league/color-extractor",
@@ -349,7 +348,7 @@
                 "image",
                 "palette"
             ],
-            "time": "2016-12-15 09:30:02"
+            "time": "2016-12-15T09:30:02+00:00"
         },
         {
             "name": "league/oauth2-client",
@@ -416,7 +415,7 @@
                 "oauth2",
                 "single sign on"
             ],
-            "time": "2018-01-13 05:27:58"
+            "time": "2018-01-13T05:27:58+00:00"
         },
         {
             "name": "league/oauth2-google",
@@ -467,7 +466,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2018-03-19 17:28:55"
+            "time": "2018-03-19T17:28:55+00:00"
         },
         {
             "name": "moxiecode/plupload",
@@ -503,7 +502,7 @@
                 "multi-runtime",
                 "plupload"
             ],
-            "time": "2018-02-20 06:20:41"
+            "time": "2018-02-20T06:20:41+00:00"
         },
         {
             "name": "nikic/fast-route",
@@ -549,20 +548,20 @@
                 "router",
                 "routing"
             ],
-            "time": "2018-02-13 20:26:39"
+            "time": "2018-02-13T20:26:39+00:00"
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.12",
+            "version": "v2.0.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "258c89a6b97de7dfaf5b8c7607d0478e236b04fb"
+                "reference": "f6ce7dd93628088e1017fb5dd73b0b9fec7df9e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/258c89a6b97de7dfaf5b8c7607d0478e236b04fb",
-                "reference": "258c89a6b97de7dfaf5b8c7607d0478e236b04fb",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/f6ce7dd93628088e1017fb5dd73b0b9fec7df9e5",
+                "reference": "f6ce7dd93628088e1017fb5dd73b0b9fec7df9e5",
                 "shasum": ""
             },
             "require": {
@@ -594,10 +593,11 @@
             "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
             "keywords": [
                 "csprng",
+                "polyfill",
                 "pseudorandom",
                 "random"
             ],
-            "time": "2018-04-04 21:24:14"
+            "time": "2018-06-06T17:40:22+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
@@ -663,7 +663,7 @@
                 }
             ],
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
-            "time": "2018-03-27 13:49:45"
+            "time": "2018-03-27T13:49:45+00:00"
         },
         {
             "name": "pimple/pimple",
@@ -713,7 +713,7 @@
                 "container",
                 "dependency injection"
             ],
-            "time": "2018-01-21 07:42:36"
+            "time": "2018-01-21T07:42:36+00:00"
         },
         {
             "name": "psr/container",
@@ -762,7 +762,7 @@
                 "container-interop",
                 "psr"
             ],
-            "time": "2017-02-14 16:28:37"
+            "time": "2017-02-14T16:28:37+00:00"
         },
         {
             "name": "psr/http-message",
@@ -812,7 +812,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06 14:39:51"
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
             "name": "slim/slim",
@@ -883,7 +883,7 @@
                 "micro",
                 "router"
             ],
-            "time": "2018-04-19 19:29:08"
+            "time": "2018-04-19T19:29:08+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -942,7 +942,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-04-26 10:06:28"
+            "time": "2018-04-26T10:06:28+00:00"
         }
     ],
     "packages-dev": [],
@@ -952,7 +952,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "~7.0"
+        "php": "~5.6"
     },
     "platform-dev": []
 }
