@@ -2,7 +2,8 @@
 
 namespace ProjectSend\Classes;
 
-use \PDO;
+use PDO;
+use PDOException;
 
 class Database
 {
@@ -15,22 +16,18 @@ class Database
 
     /**
      * Check if a table exists in the current database.
-     * by esbite on http://stackoverflow.com/questions/1717495/check-if-a-database-table-exists-using-php-pdo
      *
      * @param string $table Table to search for.
      * @return bool TRUE if table exists, FALSE if no table found.
+     * @throws PDOException
      */
     public function table_exists($table)
     {
-        try {
-            $this->result = $this->dbh->prepare("SELECT 1 FROM $table LIMIT 1");
-            $this->result->execute();
-        } catch (Exception $e) {
-            return false;
-        }
-
-        // Result is either boolean FALSE (no table found) or PDOStatement Object (table found)
-        return $this->result !== false;
+        $table = str_replace(['%', '_'], ['', ''], $table);
+        $stmt = $this->dbh->prepare("SHOW TABLES LIKE ?");
+        $stmt->execute([$table]);
+        $stmt->fetchColumn();
+        return $stmt->fetchColumn() !== false;
     }
 
 }
